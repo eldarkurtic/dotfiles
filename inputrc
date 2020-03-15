@@ -1,5 +1,7 @@
+# Use vim bindings
 set editing-mode vi
 
+# To enable some bindings in vim mode
 $if mode=vi
 
 set keymap vi-command

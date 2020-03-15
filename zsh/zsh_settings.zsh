@@ -14,3 +14,6 @@ setopt extendedhistory
 
 # Use vim as the editor
 export EDITOR=vim
+
+# Use vim bindings
+bindkey -v
