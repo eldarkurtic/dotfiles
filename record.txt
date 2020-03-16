@@ -6,3 +6,7 @@ ln -s $HOME/github/dotfiles/vimrc .vimrc
 ln -s $HOME/github/dotfiles/zshrc .zshrc
 ln -s $HOME/github/dotfiles/inputrc .inputrc
 
+# To make new conda init setup 
+/path/to/conda/bin update conda
+/path/to/conda/bin init zsh
+# then copy create code from .zshrc into .env
