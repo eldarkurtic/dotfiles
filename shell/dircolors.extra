@@ -1,4 +1,4 @@
-# Disables awful globbing colors 
+# I have no idea what does this do 
 .vo         00;38;5;240
 .v.d        00;38;5;240
 .glob       00;38;5;240
