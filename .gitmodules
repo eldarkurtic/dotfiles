@@ -14,7 +14,3 @@
 	path = shell/plugins/dircolors-solarized
 	url = git@github.com:seebi/dircolors-solarized.git
 	branch = master
-[submodule "vim/pack/plugins/start/lightline/lightline.vim"]
-	path = vim/pack/plugins/start/lightline/lightline.vim
-	url = git@github.com:itchyny/lightline.vim.git
-	branch = master
