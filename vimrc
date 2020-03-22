@@ -4,6 +4,9 @@ set nocompatible
 " Turn on syntax highlighting
 syntax on
 
+" Show matching braces when text indicator is over them
+set showmatch 
+
 " Disable the default Vim startup message
 set shortmess+=I
 
