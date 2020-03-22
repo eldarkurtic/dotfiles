@@ -80,3 +80,8 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+
+" Colorize
+"let g:solarized_termcolors=256
+"set background=dark
+"colorscheme solarized

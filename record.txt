@@ -10,3 +10,4 @@ ln -s $HOME/github/dotfiles/inputrc .inputrc
 /path/to/conda/bin update conda
 /path/to/conda/bin init zsh
 # then copy create code from .zshrc into .env
+ln -s /home/eldarkurtic/github/dotfiles/vim /vim
