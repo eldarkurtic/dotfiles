@@ -64,6 +64,7 @@ set noshowmode
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+"colorscheme monokai
 
 if &term =~ '256color'
   " disable Background Color Erase (BCE) so that color schemes
@@ -71,3 +72,17 @@ if &term =~ '256color'
   " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
+
+" Syntastic linter, linters for each filetype should be already installed
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+nnoremap <Leader>s :SyntasticCheck<CR>
+nnoremap <Leader>r :SyntasticReset<CR>
+nnoremap <Leader>i :SyntasticInfo<CR>
