@@ -1,6 +1,9 @@
 " Enable useful Vim functionality
 set nocompatible
 
+" Show command in the right bottom bar
+set showcmd
+
 " Turn on syntax highlighting
 syntax on
 
@@ -72,6 +75,14 @@ if &term =~ '256color'
   " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
+
+" Hightlight cursor-line and cursor-line-number
+set cursorline
+"hi clear CursorLine - to clear backhighlight of current line
+hi CursorLineNR term=bold cterm=bold
+augroup CLsetup
+    autocmd! ColorScheme * hi CursorLineNR term=bold cterm=bold
+augroup END
 
 " Syntastic linter, linters for each filetype should be already installed
 set statusline+=%#warningmsg#
