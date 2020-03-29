@@ -1,2 +1,2 @@
 # dotfiles
-Personal dotfiles
+Repo with personal dotfiles
