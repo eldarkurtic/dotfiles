@@ -9,5 +9,13 @@ ln -s $HOME/github/dotfiles/inputrc .inputrc
 # To make new conda init setup 
 /path/to/conda/bin update conda
 /path/to/conda/bin init zsh
+
 # then copy create code from .zshrc into .env
 ln -s /home/eldarkurtic/github/dotfiles/vim /vim
+
+# Jupyter setup
+mkdir -p ~/.jupyter/nbconfig
+ln -s $HOME/github/dotfiles/jupyter/notebook.json $HOME/.jupyter/nbconfig/notebook.json
+mkdir -p ~/.local/share/jupyter/nbextensions/
+ln -s $HOME/github/dotfiles/jupyter/nbextensions/jupyter-vim-binding $HOME/.local/share/jupyter/nbextensions/jupyter-vim-binding
+

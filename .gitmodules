@@ -22,3 +22,6 @@
 [submodule "vim/pack/plugins/start/vim-surround"]
 	path = vim/pack/plugins/start/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule "jupyter/nbextensions/jupyter-vim-binding"]
+	path = jupyter/nbextensions/jupyter-vim-binding
+	url = git@github.com:lambdalisue/jupyter-vim-binding.git
