@@ -23,6 +23,9 @@ alias please='sudo'
 # Shortcut for up
 alias up='cd ..'
 
+# Start ssh-agent
+alias ssh-start='eval `ssh-agent -s`; ssh-add'
+
 # Create a directory and cd into it
 mkcd() {
     mkdir "${1}" && cd "${1}"
