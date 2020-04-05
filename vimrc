@@ -12,7 +12,6 @@ set showmatch
 
 " Disable the default Vim startup message
 set shortmess+=I
-
 " Show line numbers
 set number
 
@@ -100,3 +99,11 @@ nnoremap <Leader>i :SyntasticInfo<CR>
 
 " Undotree
 nnoremap <F5> :UndotreeToggle<CR>
+if has("persistent_undo")
+    let undo_path=expand('~/.undodir')
+    if !isdirectory(undo_path)
+        call system('mkdir -p '.undo_path)
+    endif 
+    let &undodir=undo_path
+    set undofile
+endif
