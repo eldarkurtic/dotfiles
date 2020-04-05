@@ -98,7 +98,7 @@ nnoremap <Leader>r :SyntasticReset<CR>
 nnoremap <Leader>i :SyntasticInfo<CR>
 
 " Undotree
-nnoremap <F5> :UndotreeToggle<CR>
+nnoremap <Leader>u :UndotreeToggle<CR>
 if has("persistent_undo")
     let undo_path=expand('~/.undodir')
     if !isdirectory(undo_path)
