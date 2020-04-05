@@ -97,3 +97,6 @@ let g:syntastic_check_on_wq = 0
 nnoremap <Leader>s :SyntasticCheck<CR>
 nnoremap <Leader>r :SyntasticReset<CR>
 nnoremap <Leader>i :SyntasticInfo<CR>
+
+" Undotree
+nnoremap <F5> :UndotreeToggle<CR>

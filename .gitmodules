@@ -25,3 +25,6 @@
 [submodule "jupyter/nbextensions/jupyter-vim-binding"]
 	path = jupyter/nbextensions/jupyter-vim-binding
 	url = git@github.com:lambdalisue/jupyter-vim-binding.git
+[submodule "vim/pack/plugins/start/undotree"]
+	path = vim/pack/plugins/start/undotree
+	url = git@github.com:mbbill/undotree.git
