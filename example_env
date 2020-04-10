@@ -1,5 +1,7 @@
 # Set path for Go
-export GOPATH=$HOME/gopath
+export PATH=/usr/local/go/bin:$PATH
+# Create folder $HOME/go
+export GOPATH=$HOME/go
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 
 # >>> conda initialize >>>
