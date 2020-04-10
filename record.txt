@@ -5,13 +5,12 @@ ln -s $HOME/github/dotfiles/tmux.conf .tmux.conf
 ln -s $HOME/github/dotfiles/vimrc .vimrc
 ln -s $HOME/github/dotfiles/zshrc .zshrc
 ln -s $HOME/github/dotfiles/inputrc .inputrc
+ln -s /home/eldarkurtic/github/dotfiles/vim .vim
 
 # To make new conda init setup 
 /path/to/conda/bin update conda
 /path/to/conda/bin init zsh
-
 # then copy create code from .zshrc into .env
-ln -s /home/eldarkurtic/github/dotfiles/vim /vim
 
 # Jupyter setup
 mkdir -p ~/.jupyter/nbconfig
