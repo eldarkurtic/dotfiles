@@ -41,6 +41,8 @@ fi
 
 # Fish style autosuggestions
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Autosuggestions in solarized-datk in gnome-terminal not visible
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
 
 # History substring search with arrows (up/down)
 source ~/.zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh

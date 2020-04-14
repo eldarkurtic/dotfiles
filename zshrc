@@ -32,4 +32,4 @@ source ~/.zsh/zsh_settings.zsh
 source ~/.zsh/plugins.zsh
 
 # Autosuggestions in solarized-dark in gnome-terminal not visible
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
