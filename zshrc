@@ -10,6 +10,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="fishy"
+#ZSH_THEME=robbyrussell
 
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -30,6 +31,3 @@ source ~/.zsh/zsh_settings.zsh
 
 # Source external plugins
 source ~/.zsh/plugins.zsh
-
-# Autosuggestions in solarized-dark in gnome-terminal not visible
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
