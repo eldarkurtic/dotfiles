@@ -77,7 +77,7 @@ endif
 
 " Hightlight cursor-line and cursor-line-number
 set cursorline
-"hi clear CursorLine - to clear backhighlight of current line
+"hi clear CursorLine " - to clear backhighlight of current line
 hi CursorLineNR term=bold cterm=bold
 augroup CLsetup
     autocmd! ColorScheme * hi CursorLineNR term=bold cterm=bold
