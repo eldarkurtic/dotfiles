@@ -94,3 +94,6 @@ if has("persistent_undo")
     set undofile
 endif
 
+" ALE settings
+let g:ale_completion_enabled = 1
+let g:ale_linters = {'python': ['pyls', 'pylint', 'flake8']}
