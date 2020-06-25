@@ -96,4 +96,5 @@ endif
 
 " ALE settings
 let g:ale_completion_enabled = 1
+" Linters should be already installed
 let g:ale_linters = {'python': ['pyls', 'pylint', 'flake8']}
