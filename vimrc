@@ -83,20 +83,6 @@ augroup CLsetup
     autocmd! ColorScheme * hi CursorLineNR term=bold cterm=bold
 augroup END
 
-" Syntastic linter, linters for each filetype should be already installed
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-nnoremap <Leader>s :SyntasticCheck<CR>
-nnoremap <Leader>r :SyntasticReset<CR>
-nnoremap <Leader>i :SyntasticInfo<CR>
-
 " Undotree
 nnoremap <Leader>u :UndotreeToggle<CR>
 if has("persistent_undo")
