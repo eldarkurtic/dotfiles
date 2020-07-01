@@ -17,3 +17,6 @@ export EDITOR=vim
 
 # Use vim bindings
 bindkey -v
+
+# Turn off beep sound
+unsetopt BEEP

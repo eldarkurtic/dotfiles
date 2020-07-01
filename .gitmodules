@@ -28,3 +28,6 @@
 [submodule "vim/pack/plugins/start/ale"]
 	path = vim/pack/plugins/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "oh-my-zsh/powerlevel10k"]
+	path = oh-my-zsh/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
