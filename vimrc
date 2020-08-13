@@ -98,3 +98,8 @@ endif
 let g:ale_completion_enabled = 1
 " Linters should be already installed
 let g:ale_linters = {'python': ['pyls', 'pylint', 'flake8']}
+
+" Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+let g:solarized_termtrans = 1
