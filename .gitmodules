@@ -31,3 +31,6 @@
 [submodule "oh-my-zsh/powerlevel10k"]
 	path = oh-my-zsh/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "vim/pack/plugins/start/switch.vim"]
+	path = vim/pack/plugins/start/switch.vim
+	url = https://github.com/AndrewRadev/switch.vim.git

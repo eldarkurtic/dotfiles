@@ -103,3 +103,6 @@ let g:ale_linters = {'python': ['pyls', 'pylint', 'flake8']}
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 let g:solarized_termtrans = 1
+
+" Switch vim plugin - shortcut
+let g:switch_mapping = "-"
