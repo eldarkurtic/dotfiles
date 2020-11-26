@@ -35,15 +35,18 @@ if [[ "$(tput colors)" == "256" ]]; then
 fi
 
 # Setup dircolors
-if [[ "$(tput colors)" == "256" ]]; then
-    eval $(dircolors =(cat ~/.shell/plugins/dircolors-solarized/dircolors.256dark ~/.shell/dircolors.extra))
-fi
+#if [[ "$(tput colors)" == "256" ]]; then
+#    eval $(dircolors =(cat ~/.shell/plugins/dircolors-solarized/dircolors.256dark ~/.shell/dircolors.extra))
+#fi
+# above command is for GNU, the command below does similar job in osx
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+#export LSCOLORS=exfxfeaeBxxehehbadacea
 
 # Fish style autosuggestions
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-# Autosuggestions in solarized-datk in gnome-terminal not visible
-#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'
+
+# Autosuggestions in solarized-dark in gnome-terminal not visible
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240' # grey color for autosuggest
 
 # History substring search with arrows (up/down)
 source ~/.zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh

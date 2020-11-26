@@ -13,6 +13,7 @@ if [ -f ~/.env ]; then
 fi
 
 # Path to your oh-my-zsh installation.
+ZSH_DISABLE_COMPFIX=true  # solve ownership issues
 export ZSH=$HOME/.oh-my-zsh
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
