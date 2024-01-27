@@ -16,7 +16,7 @@ setopt extendedhistory
 export EDITOR=vim
 
 # Use vim bindings
-bindkey -v
+# bindkey -v
 
 # Turn off beep sound
 unsetopt BEEP
