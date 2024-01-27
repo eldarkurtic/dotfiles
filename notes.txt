@@ -1,12 +1,3 @@
-ln -s $HOME/github/dotfiles/zsh .zsh
-ln -s $HOME/github/dotfiles/shell .shell
-ln -s $HOME/github/dotfiles/bash_aliases .bash_aliases
-ln -s $HOME/github/dotfiles/tmux.conf .tmux.conf
-ln -s $HOME/github/dotfiles/vimrc .vimrc
-ln -s $HOME/github/dotfiles/zshrc .zshrc
-ln -s $HOME/github/dotfiles/inputrc .inputrc
-ln -s $HOME/github/dotfiles/vim .vim
-
 # To make new conda init setup 
 /path/to/conda/bin update conda
 /path/to/conda/bin init zsh
