@@ -3,7 +3,7 @@ alias ca='conda activate'
 alias cda='conda deactivate'
 
 # Nvidia aliases
-alias wns='watch -n0.01 nvidia-smi'
+alias nsmi='nvidia-smi -l 1'
 
 # Aliases to fix small typos
 alias dc='cd'
@@ -30,3 +30,12 @@ alias ssh-start='eval `ssh-agent -s`; ssh-add'
 mkcd() {
     mkdir "${1}" && cd "${1}"
 }
+
+# Tmux aliases
+alias ta="tmux -CC a -t"
+alias tn="tmux -CC new -s"
+alias tkill="tmux kill-session -t"
+
+# Slurm
+alias slurmcheck="squeue --sort=+i -o '%.9i %.8u %.8j %.9a %.9P %.7T %.10M %.9L %.4C %.7m %.6D %R %b'"
+
