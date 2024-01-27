@@ -24,7 +24,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent)
+#plugins=(git ssh-agent)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -44,9 +45,9 @@ source ~/.zsh/plugins.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
-export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
+#export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"
+#export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
 
-source <(kubectl completion zsh)
+#source <(kubectl completion zsh)
