@@ -36,6 +36,8 @@ alias ta="tmux -CC a -t"
 alias tn="tmux -CC new -s"
 alias tkill="tmux kill-session -t"
 
+# python is python3
+alias python=python3
+
 # Slurm
 alias slurmcheck="squeue --sort=+i -o '%.9i %.8u %.8j %.9a %.9P %.7T %.10M %.9L %.4C %.7m %.6D %R %b'"
-
