@@ -51,3 +51,7 @@ source ~/.zsh/plugins.zsh
 #export PATH="$HOME/.gem/ruby/3.1.0/bin:$PATH"
 
 #source <(kubectl completion zsh)
+
+if [ -n "$KUBERNETES_SERVICE_HOST" ]; then
+    echo "https://eldarkurtic:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
+fi
